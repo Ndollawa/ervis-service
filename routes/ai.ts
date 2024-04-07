@@ -20,7 +20,7 @@ router.post("/review", async (req, res) => {
       return res.status(400).send(error);
     }
   } else {
-    return res.status(400).send("An en error occured");
+    return res.status(400).send("An en error occurred");
   }
 });
 
